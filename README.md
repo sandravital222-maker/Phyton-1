@@ -92,7 +92,7 @@ while True:
 
         print(“3. Use quotation marks for text.”)
 
-   elif choice == “3”:
+    elif choice == “3”:
 
         print(“\n=== BASIC DATA TYPES IN PYTHON ===“)
 
