@@ -22,11 +22,15 @@ while True:
 
     print(“[8] = INTRODUCTION TO ITERATION AND LOOPS”)
     
-    print(“[9] = FUNCTIONS IN PYTHON”)
-
     print(“----------------------------------------“)
+    
+    print(“[9] PYTHON QUIZ CHALLENGE”)
 
- choice = input(“Choose a lesson or activity (1-11): “)
+    print(“[10] EXIT”)
+    
+    print(“==========================================“)
+
+    choice = input(“Choose a lesson or activity (1-10): “)
 
     if choice == “1”:
 
@@ -37,6 +41,38 @@ while True:
         print(“Python is a programming language.”)
 
         print(“It is used to create programs and applications.”)
+   
+        print(“\nPython syntax refers to the rules for writing code correctly.”)
+
+        print(“ PRINT()”)
+
+        print(“Meaning: Used to display text or output on the screen.”)
+
+        print("Example: print('Hello World')")
+
+        print(“ QUOTATION MARKS (‘ ‘ or “ “)”)
+
+        print(“Meaning: Used to enclose text or string values.”)
+
+        print(‘Example: name = “Sandra”’)
+
+        print(" EQUAL SIGN (=)”)
+
+        print(“Meaning: Used to assign a value to a variable.”)
+
+        print(‘Example: age = 18’)
+
+        print(“ DOUBLE EQUAL SIGN (==)”)
+
+        print(“Meaning: Used to check if two values are equal.”)
+
+        print(‘Example: if choice == “1”:’)
+
+        print(“ COLON (:)”)
+
+        print(“Meaning: Indicates the beginning of a code block.”)
+
+        print(“Example: if age >= 18:”)
 
     elif choice == “2”:
 
@@ -46,7 +82,7 @@ while True:
 
         print(“Example:”)
 
-        print(‘print(“Hello World”)’)
+        print("print('Hello World')")
 
         print(“Remember:”)
 
@@ -60,159 +96,285 @@ while True:
 
         print(“\n=== BASIC DATA TYPES IN PYTHON ===“)
 
-        print(“int = Integer (whole number)”)
+        print(“ INT (Integer)”)
 
-        print(“float = Decimal number”)
+        print(“Meaning: Integer is a whole number without decimal points.”)
 
-        print(“str = String (text)”)
+        print(“Example: age = 18”)
 
-        print(“bool = Boolean (True or False)”)
+        print(“It is used for counting or representing whole numbers.”)
 
-        print(“Example:”)
+        print(“FLOAT (Floating-Point)”)
 
-        print(‘age = 18’)
+        print(“Meaning: Float is a number that has a decimal point.”)
 
-        print(‘name = “Sandra”’)
+        print(“Example: height = 5.2”)
 
-        print(‘height = 5.2’)
+        print(“It is used for measurements and decimal values.”)
 
-        print(‘student = True’)
+        print(“ STR (String)”)
+
+        print(“Meaning: String is a group of characters or text enclosed in quotation marks.”)
+         
+        print(‘Example: name = “Sandra”’)
+
+        print(“It is used for names, words, and sentences.”)
+
+        print(“ BOOL (Boolean)”)
+
+        print(“Meaning: Boolean represents only two values: True or False.”)
+
+        print(“Example: student = True”)
+
+        print(“It is used for checking conditions and making decisions.”)
+
+        print(“=== SUMMARY ===“)
+
+        print(“INT = Whole numbers”)
+
+        print(“FLOAT = Decimal numbers”)
+
+        print(“STR = Text or characters”)
+
+        print(“BOOL = True or False”)
 
     elif choice == “4”:
 
         print(“\n=== ARITHMETIC OPERATORS ===“)
 
-        print(“Addition (+) = 10 + 5”)
+        print(“ ADDITION (+)”)
 
-        print(“Subtraction (-) = 10 - 5”)
+        print(“Meaning: Used to add two or more numbers.”)
 
-        print(“Multiplication (*) = 10 * 5”)
+        print(“Example: 10 + 5 = 15”)
 
-        print(“Division (/) = 10 / 5”)
+        print(“ SUBTRACTION (-)”)
 
-        print(“Modulus (%) = 10 % 3”)
+        print(“Meaning: Used to subtract one number from another.”)
 
-        print(“Exponent (**) = 2 ** 3”)
+        print(“Example: 10 - 5 = 5”)
 
-        print(“Floor Division (//) = 10 // 3”)
+        print(“  MULTIPLICATION (*)”)
+
+        print(“Meaning: Used to multiply two or more numbers.”)
+
+        print(“Example: 10 * 5 = 50”)
+
+        print(“  DIVISION (/)”)
+
+        print(“Meaning: Used to divide one number by another.”)
+
+        print(“Example: 10 / 5 = 2.0”)
+     
+        print(“ MODULUS (%)”)
+
+        print(“Meaning: Returns the remainder after division.”)
+
+        print(“Example: 10 % 3 = 1”)
+
+        print(“  EXPONENT (**)”)
+
+        print(“Meaning: Used to raise a number to a power.”)
+
+        print(“Example: 2 ** 3 = 8”)
+
+        print(“  FLOOR DIVISION (//)”)
+
+        print(“Meaning: Divides two numbers and rounds the result down to the nearest whole number.”)
+
+        print(“Example: 10 // 3 = 3”)
   
     elif choice == “5”:
 
         print(“\n=== BASIC INPUT AND OUTPUT ===“)
 
-        print(“input() is used to get information from the user.”)
+        print(“ INPUT()”)
 
-        print(“print() is used to display information.”)
+        print(“Meaning: Used to get information from the user.”)
 
-        print(“Example:”)
+        print(“Purpose: Allows users to enter their own information.”)
 
-        print(‘name = input(“Enter your name: “)’)
+        print(‘Example: name = input(“Enter your name: “)’)
 
-        print(‘print(“Hello”, name)’)
+        print(“ PRINT()”)
+
+        print(“Meaning: Used to display information on the screen.”)
+
+        print(“Purpose: Shows messages, results, and output.”)
+
+        print(‘Example: print(“Hello World”)’)
+
+        print(“=== EXAMPLE PROGRAM ===“)
+
+        name = input(“Enter your name: “)
+
+        print(“Hello”, name)
+
+        print(“=== SAMPLE OUTPUT ===“)
+
+        print(“Enter your name: Sandra”)
+
+        print(“Hello Sandra”)
 
     elif choice == “6”:
 
         print(“\n=== CONDITIONAL STATEMENTS ===“)
 
-        print(“Conditional statements make decisions.”)
+        elif choice == “6”:
 
-        print(“IF = Checks a condition.”)
+        print(“\n=== CONDITIONAL STATEMENTS ===“)
 
-        print(“ELIF = Checks another condition.”)
+        print(“\nMeaning:”)
 
-        print(“ELSE = Executes when conditions are false.”)
+        print(“Conditional statements are used to make decisions in a program based on certain conditions.”)
 
-        print(“\nExample:”)
+        print(“ IF STATEMENT ”)
 
-        print(“grade = 90”)
+        print(“Meaning: Checks if a condition is True.”)
 
-        print(“if grade >= 90:”)
+        print(“Purpose: Executes code when the condition is True.”)
 
-        print(‘    print(“Excellent”)’)
+        print(“Example: if grade >= 90:”)
 
-        print(‘elif grade >= 75:’)
+        print(“ ELIF STATEMENT ”)
 
-        print(‘  print(“Passed”)’)
+        print(“Meaning: Checks another condition if the previous condition is False.”)
 
-        print(‘else:’)
+        print(“Purpose: Allows the program to check multiple conditions.”)
 
-        print(‘   print(“Failed”)')
+        print(“Example: elif grade >= 85:”)
+
+        print(“ ELSE STATEMENT ”)
+
+        print(“Meaning: Executes when all previous conditions are False.”)
+
+        print(“Purpose: Provides an alternative action.”)
+
+        print(‘Example: else: print(“Try again”)’)
+
+        print(“ Example:”)
+
+        grade = 90
+
+        if grade >= 90:
+
+            print(“Excellent!”)
+
+        elif grade >= 85:
+
+            print(“Very Good!”)
+
+        else:
+
+            print(“Keep Practicing!”)
     
     elif choice == “7”:
 
         print(“\n=== LOGICAL OPERATORS ===“)
 
-        print(“AND = Both conditions must be True.”)
+        print(“\nLogical operators are used to combine or reverse conditions.”)
 
-        print(“OR = At least one condition must be True.”)
+        print(“ AND OPERATOR (and)”)
 
-        print(“NOT = Reverses the result.”)
+        print(“Meaning: Both conditions must be True.”)
 
-        print(“\nExample:”)
+        print(“Purpose: Checks if two conditions are both satisfied.”)
 
-        print(“age = 18”)
+        print(“Example: age >= 18 and has_id == True”)
 
-        print(“has_id = True”)
+        print(“Result: True only if both conditions are True.”)
 
-        print(“if age >= 18 or has_id == True:”)
+        print(“ OR OPERATOR (or)”)
 
-        print(‘   print(“Condition accepted”)’)
+        print(“Meaning: At least one condition must be True.”)
 
-        print(“else:”)
+        print(“Purpose: Allows the program to proceed if one condition is satisfied.”)
 
-        print(‘   print(“Condition not accepted”)’)
+        print(“Example: age >= 18 or has_id == True”)
+
+        print(“Result: True if at least one condition is True.”)
+
+        print(“ NOT OPERATOR (not)”)
+
+        print(“Meaning: Reverses the result of a condition.”)
+
+        print(“Purpose: Changes True to False and False to True.”)
+
+        print(“Example: not has_id”)
+
+        print(“Result: True if has_id is False.”)
+ 
+        print(“=== EXAMPLE ===“)
+
+        age = 18
+
+        has_id = True
+
+        print(“Age =“, age)
+
+        print(“Has ID =“, has_id)
+
+        if age >= 18 or has_id == True:
+
+            print(“Condition accepted”)
 
     elif choice == “8”:
 
         print(“\n=== ITERATION AND LOOPS ===“)
 
-        print(“Loops repeat a block of code.”)
+        print(“\nMeaning:”)
 
-        print(“\nFOR LOOP Example:”)
+        print(“Loops are used to repeat a block of code multiple times.”)
 
-        print(‘for number in range(1, 6):’)
+        print(“ FOR LOOP”)
 
-        print(‘    print(number)’)
+        print(“Meaning: Repeats code for each item in a sequence.”)
 
-        print(“\nWHILE LOOP Example:”)
+        print(“Purpose: Used when you know how many times to repeat.”)
 
-        print(‘count = 1’)
+        print(“Example: for number in range(1, 6):”)
 
-        print(‘while count <= 5:’)
+        print(“ RANGE()”)
 
-        print(‘    print(count)’)
+        print(“Meaning: Generates a sequence of numbers.”)
 
-        print(‘    count += 1’)
+        print(“Purpose: Specifies the numbers used in a loop.”)
 
-  elif choice == “9”:
+        print(“Example: range(1, 6) generates numbers from 1 to 5.”)
 
-        print(“\n================================“)
+        print(“ WHILE LOOP”)
 
-        print(“       FUNCTIONS IN PYTHON”)
+        print(“Meaning: Repeats code while a condition is True.”)
 
-        print(“================================“)
+        print(“Purpose: Used when repetition depends on a condition.”)
 
-        print(“A function is a reusable block of code.”)
+        print(“Example: while count <= 5:”)
 
-        print(“It helps organize a program and avoid repeating code.”)
+        print(“ COUNTING VARIABLE”)
 
-        print(“Functions are created using the def keyword.”)
+        print(“Meaning: A variable used to track or count repetitions.”)
 
-        print(“A function can receive information and return a result.”)
+        print(“Purpose: Helps control how many times a loop runs.”)
 
-        print(“\nExample:”)
+        print(“Example: count = 1”)
 
-        print(“def greet(name):”)
+        print(“=== FOR LOOP EXAMPLE ===“)
 
-        print(‘    print(“Hello”, name)’)
+        for number in range(1, 6):
 
-        print(‘greet(“Sandra”)’)
+            print(number)
 
-        print(“\nOutput:”)
+        print(“=== WHILE LOOP EXAMPLE ===“)
 
-        print(“Hello Sandra”)
+        count = 1
 
-    elif choice == “10”:
+        while count <= 5:
+
+            print(count)
+
+            count += 1
+  
+    elif choice == “9”:
 
         print(“\n================================“)
 
@@ -229,30 +391,71 @@ while True:
             (“1. What function displays text?”,
 
              “a. print”, “b. break”, “c. input”, “c”),
+             while True:
+                 ans = input(“Answer: “).upper()
+                 if ans == “A” or ans == “B” or ans == “C” or ans == “D”:
+                    break
+                 print(“Invalid input! Please enter A, B, C, or D.”)
 
             (“2. What statement checks a condition?”,
 
              “a. print”, “b. if”, “c. for”, “b”),
+             while True:
+              ans = input(“Answer: “).upper()
+                 if ans == “A” or ans == “B” or ans == “C” or ans == “D”:
+                    break
+                 print(“Invalid input! Please enter A, B, C, or D.”)
+
 
             (“3. What operator means at least one is true?”,
 
              “a. and”, “b. not”, “c. or”, “c”),
+             while True:
+              ans = input(“Answer: “).upper()
+                 if ans == “A” or ans == “B” or ans == “C” or ans == “D”:
+                    break
+                 print(“Invalid input! Please enter A, B, C, or D.”)
+
 
             (“4. What loop repeats while a condition is true?”,
 
              “a. while”, “b. print”, “c. input”, “a”),
+             while True:
+              ans = input(“Answer: “).upper()
+                 if ans == “A” or ans == “B” or ans == “C” or ans == “D”:
+                    break
+                 print(“Invalid input! Please enter A, B, C, or D.”)
+
 
             (“5. What statement stops a loop?”,
 
              “a. elif”, “b. break”, “c. else”, “b”),
+             while True:
+              ans = input(“Answer: “).upper()
+                 if ans == “A” or ans == “B” or ans == “C” or ans == “D”:
+                    break
+                 print(“Invalid input! Please enter A, B, C, or D.”)
+ 
 
             (“6. What keyword is used to create a function?”,
 
              “a. def”, “b. print”, “c. input”, “a”),
+              while True:
+              ans = input(“Answer: “).upper()
+                 if ans == “A” or ans == “B” or ans == “C” or ans == “D”:
+                    break
+                 print(“Invalid input! Please enter A, B, C, or D.”)
+
 
             (“7. Which data type is used for text?”,
 
              “a. str”, “b. int”, “c. float”, “a”)
+             while True:
+              ans = input(“Answer: “).upper()
+                 if ans == “A” or ans == “B” or ans == “C” or ans == “D”:
+                    break
+                 print(“Invalid input! Please enter A, B, C, or D.”)
+
           
         ]
 
@@ -294,6 +497,11 @@ while True:
 
             print(“GOOD JOB! Keep practicing!”)
 
-        else:
+        elif choice == “0”:
+            print(“Thank you “)
+            break
+        
 
-            print(“Don’t give up! Review your lesson!”)
+          else:
+            
+               print(“Invalid choice! Please choose 0-10.”)
