@@ -26,7 +26,7 @@ while True:
 
     print(“----------------------------------------“)
 
-choice = input(“Choose a lesson or activity (1-11): “)
+ choice = input(“Choose a lesson or activity (1-11): “)
 
 
     if choice == “1”:
