@@ -78,20 +78,64 @@ while True:
 
         print(“\n=== PYTHON BASIC SYNTAX ===“)
 
-        print(“Syntax refers to the rules of Python.”)
+        print(“Meaning:”)
+
+        print(“Python syntax refers to the rules for writing Python code correctly.”)
+
+        print(“ PRINT()”)
+
+        print(“Meaning: Used to display text, messages, and results on the screen.”)
+
+        print(‘Example: print(“Hello World”)’)
+
+        print(" CORRECT SPELLING”)
+
+        print(“Meaning: Python commands and keywords must be spelled correctly.”)
+
+        print(“Purpose: Prevents spelling errors in the program.”)
+
+        print(‘Example: print(“Hello”)’)
+
+        print(“Incorrect spelling: pritn()”)
+
+        print(“ PROPER INDENTATION”)
+
+        print(“Meaning: Spaces at the beginning of a line of code.”)
+
+        print(“Purpose: Shows which statements belong inside a code block.”)
 
         print(“Example:”)
 
-        print("print('Hello World')")
+        print(“if age >= 18:”)
 
-        print(“Remember:”)
+        print(‘    print(“You are an adult”)’)
+    
+        print(“ QUOTATION MARKS”)
 
-        print(“1. Use correct spelling.”)
+        print(“Meaning: Used to enclose text or string values.”)
 
-        print(“2. Use proper indentation.”)
+        print(“Purpose: Tells Python that the information is a text.”)
 
-        print(“3. Use quotation marks for text.”)
+        print(‘Example: name = “Sandra”’)
 
+        print(“ PARENTHESES ()”)
+
+        print(“Meaning: Used when calling a function or passing information.”)
+
+        print(‘Example: print(“Hello World”)’)
+
+        print(“ COLON (:)”)
+
+        print(“Meaning: Indicates the beginning of a code block.”)
+
+        print(“Example: if age >= 18:”)
+
+        print(“REMEMBER:”)
+
+        print(“Always follow the correct Python syntax.”)
+
+        print(“Use correct spelling, proper indentation, and quotation marks.”)
+     
     elif choice == “3”:
 
         print(“\n=== BASIC DATA TYPES IN PYTHON ===“)
