@@ -28,7 +28,6 @@ while True:
 
  choice = input(“Choose a lesson or activity (1-11): “)
 
-
     if choice == “1”:
 
         print(“\n=== INTRODUCTION TO PROGRAMMING ===“)
